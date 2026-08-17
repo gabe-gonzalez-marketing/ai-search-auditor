@@ -1,0 +1,21 @@
+{
+  "name": "ai-search-auditor",
+  "interface": {
+    "displayName": "AI Search Auditor"
+  },
+  "plugins": [
+    {
+      "name": "ai-search-auditor",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gabe-gonzalez-marketing/ai-search-auditor.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ai-search-auditor",
+  "version": "0.1.0",
+  "description": "Run zero-configuration AI search visibility audits from a single URL",
+  "author": {
+    "name": "Gabe Gonzalez Marketing"
+  },
+  "homepage": "https://github.com/gabe-gonzalez-marketing/ai-search-auditor",
+  "repository": "https://github.com/gabe-gonzalez-marketing/ai-search-auditor",
+  "license": "MIT"
+}

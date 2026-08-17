@@ -1,0 +1,17 @@
+{
+  "name": "ai-search-auditor",
+  "description": "Install the AI Search Auditor skill for zero-configuration website readiness audits",
+  "owner": {
+    "name": "Gabe Gonzalez Marketing"
+  },
+  "plugins": [
+    {
+      "name": "ai-search-auditor",
+      "source": "./",
+      "description": "Run zero-configuration AI search visibility audits from a single URL",
+      "version": "0.1.0",
+      "category": "developer-tools",
+      "homepage": "https://github.com/gabe-gonzalez-marketing/ai-search-auditor"
+    }
+  ]
+}
