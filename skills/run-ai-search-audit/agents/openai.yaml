@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Search Auditor"
+  short_description: "Audit AI search visibility from one URL"
+  default_prompt: "Use $run-ai-search-audit to run a complete AI search audit for my website."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+.ai-search-audit/
+__pycache__/
+*.pyc
+.DS_Store
