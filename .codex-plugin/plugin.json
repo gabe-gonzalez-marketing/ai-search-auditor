@@ -1,6 +1,6 @@
 {
   "name": "ai-search-auditor",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Zero-configuration AI search visibility audits from a single URL.",
   "author": {
     "name": "Gabe Gonzalez Marketing"
@@ -9,7 +9,7 @@
   "interface": {
     "displayName": "AI Search Auditor",
     "shortDescription": "Audit AI search readiness from one URL.",
-    "longDescription": "Crawls a public website with safe defaults and produces evidence-labeled technical, content, entity, crawler-access, answerability, citation, and intent-coverage reports without requiring API keys.",
+    "longDescription": "Audits a public website or compares it with competitors using safe defaults, producing evidence-labeled technical, content, entity, crawler-access, answerability, citation, and coverage reports without requiring API keys.",
     "developerName": "Gabe Gonzalez Marketing",
     "category": "Developer Tools",
     "capabilities": ["skills"],

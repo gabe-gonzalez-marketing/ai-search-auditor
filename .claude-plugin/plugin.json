@@ -1,7 +1,7 @@
 {
   "name": "ai-search-auditor",
-  "version": "0.1.0",
-  "description": "Run zero-configuration AI search visibility audits from a single URL",
+  "version": "0.2.0",
+  "description": "Run AI search visibility audits and competitor comparisons",
   "author": {
     "name": "Gabe Gonzalez Marketing"
   },

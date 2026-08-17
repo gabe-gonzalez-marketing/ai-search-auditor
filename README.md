@@ -10,6 +10,15 @@ Agent: What website URL would you like me to audit?
 User: https://example.com
 ```
 
+For a competitor comparison:
+
+```text
+User: Compare my AI search readiness with competitors.
+Agent: What is your website URL?
+User: https://example.com
+Agent: What competitor website URLs should I compare it against? Send up to five.
+```
+
 The URL is the only required input. The skill discovers `robots.txt` and sitemaps, selects a safe crawl limit, analyzes technical and content signals, detects entities and topics, generates intent-led query fan-out, and saves:
 
 ```text
@@ -52,6 +61,12 @@ Codex will ask for the website URL if you did not include it. You can also invok
 Use $run-ai-search-audit to audit https://example.com
 ```
 
+To compare competitors, ask naturally or invoke the comparison skill:
+
+```text
+Use $compare-ai-search-competitors to compare my site against competitors.
+```
+
 ### Update
 
 ```bash
@@ -84,6 +99,12 @@ You can also ask naturally:
 Run an AI search audit for https://example.com
 ```
 
+For competitor analysis, use:
+
+```text
+/ai-search-auditor:compare-ai-search-competitors
+```
+
 If you omit the URL, Claude asks for it and then runs the complete audit without additional setup questions.
 
 ### Update
@@ -103,6 +124,15 @@ python3 skills/run-ai-search-audit/scripts/audit.py https://example.com
 ```
 
 Optional advanced flags are available via `--help`, but are not part of standard onboarding.
+
+For a direct competitor comparison:
+
+```bash
+python3 skills/compare-ai-search-competitors/scripts/compare.py \
+  https://your-site.com https://competitor-one.com https://competitor-two.com
+```
+
+Comparison reports are saved as `competitor-report.md`, `competitor-report.json`, and `competitor-report.html` under `.ai-search-audit/latest/`.
 
 ## Safety and evidence
 

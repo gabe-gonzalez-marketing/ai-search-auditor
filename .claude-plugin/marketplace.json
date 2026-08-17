@@ -8,8 +8,8 @@
     {
       "name": "ai-search-auditor",
       "source": "./",
-      "description": "Run zero-configuration AI search visibility audits from a single URL",
-      "version": "0.1.0",
+      "description": "Run AI search visibility audits and competitor comparisons",
+      "version": "0.2.0",
       "category": "developer-tools",
       "homepage": "https://github.com/gabe-gonzalez-marketing/ai-search-auditor"
     }

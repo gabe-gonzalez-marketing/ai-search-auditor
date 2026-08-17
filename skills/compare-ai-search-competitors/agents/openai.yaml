@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Competitor Comparison"
+  short_description: "Compare AI search readiness across sites"
+  default_prompt: "Use $compare-ai-search-competitors to compare my website against competitors."
